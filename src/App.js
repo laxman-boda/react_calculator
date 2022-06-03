@@ -1,8 +1,11 @@
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+        <Wrapper>
+          <h1>App</h1>
+        </Wrapper>
     </div>
   );
 }
